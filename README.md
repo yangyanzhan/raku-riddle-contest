@@ -36,6 +36,10 @@ raku test.raku --riddle=1 --user=username
 
 Create a pull request, I'll check the correctness and the uniqueness of your solution. If the solution is both correct and unique, I'll merge your pull request and publish your solution to my youtube channel so that everyone can learn from your raku code.
 
+# How to support me?
+
+It's very easy to support me. Just follow my youtube channel and my github account. Also don't forget to star this project.
+
 # How to watch videos about this contest?
 
 Every week, I'll upload a video to youtube to spread the best solutions to everyone who loves raku. If you like raku, don't forget to follow me in my youtube channel.
