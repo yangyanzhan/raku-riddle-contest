@@ -1,8 +1,12 @@
 # raku-riddle-contest
 
-Raku Riddle Contest
+Watch Raku Riddle Contest on [My Youtube Channel](https://www.youtube.com/channel/UCDkz-__gl3frqLexukpG0DA) .
 
-# How to join this contest?
+# How to join this contest? Gif Illustration.
+
+! [tutorial.gif] (https://github.com/yangyanzhan/raku-riddle-contest/raw/main/resources/tutorial.gif)
+
+# How to join this contest? Detailed Tutorial.
 
 1. Fork my code.
 
