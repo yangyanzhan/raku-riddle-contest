@@ -41,3 +41,8 @@ Create a pull request, I'll check the correctness and the uniqueness of your sol
 Every week, I'll upload a video to youtube to spread the best solutions to everyone who loves raku. If you like raku, don't forget to follow me in my youtube channel.
 
 This is [My Youtube Channel](https://www.youtube.com/channel/UCDkz-__gl3frqLexukpG0DA) .
+
+# Youtube Video List:
+
+
+
