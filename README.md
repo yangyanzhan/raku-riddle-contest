@@ -6,19 +6,21 @@ Raku Riddle Contest
 
 1. Fork my code.
 
-2. Select a riddle to solve. Let's say the first riddle.
+2. Select a riddle to solve. Let's say you want to solve the first riddle.
 
 3. View the content of the first riddle. There are two files to look at for one riddle.
 
 The file with desc.txt suffix shows the description for this riddle.
 
-The file with riddle.txt suffix shows the test cases for this riddle. Each test case can be split into two parts. The first part is the input of the test case. The second part is the desired output of the test case.
+The file with riddle.txt suffix shows the test cases for this riddle. Each test case corresponds to one line in the riddle.txt file. Each test case can be split by blank space into two parts. The first part is the input of the test case. The second part is the desired output of the test case.
 
 To view the content of the first riddle. You should look at ./riddles/1.desc.txt and ./riddles/1.riddle.txt.
 
 4. Write a solution for the riddle.
 
-To write a solution, create a raku file under the solutions directory. For example, to solve the first riddle, you should create ./solutions/1/username.raku in which the username is your github username. Note you must use your github username to name the raku file, otherwise your commit can't be merged into the master repo.
+To write a solution, create a raku file under the solutions directory. For example, to solve the first riddle, you should create ./solutions/1/username.raku in which the username is your github username. Note that you must use your github username to name the raku file, otherwise your commit can't be merged into the master repo.
+
+Your solution script is expected to solve only one single test case. The test driver will call your script for each test case and provide the input of the test case as the stdin for your script. You should print your result to the stdout. If your result is the same as the desired output of the test case, then this test case will be marked as correct. If all the test cases are correctly solved, then your script is viewed as correct.
 
 5. Check the correctness of your solution.
 
