@@ -1,6 +1,10 @@
 sub MAIN(Str :$riddle, Str :$user) {
+    say "riddle description:";
+    say "===========================";
+    shell "cat ./riddles/$riddle.desc.txt";
+    say "===========================";
     my $wrong-count = 0;
-    for "./riddles/$riddle.txt".IO.lines -> $line {
+    for "./riddles/$riddle.riddle.txt".IO.lines -> $line {
         my @parts = split(" ", $line);
         my $input = @parts[0];
         my $answer = @parts[1];
