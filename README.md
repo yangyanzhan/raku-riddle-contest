@@ -20,7 +20,7 @@ To view the content of the first riddle. You should look at ./riddles/1.desc.txt
 
 To write a solution, create a raku file under the solutions directory. For example, to solve the first riddle, you should create ./solutions/1/username.raku in which the username is your github username. Note that you must use your github username to name the raku file, otherwise your commit can't be merged into the master repo.
 
-Your solution script is expected to solve only one single test case. The test driver will call your script for each test case and provide the input of the test case as the stdin for your script. You should print your result to the stdout. If your result is the same as the desired output of the test case, then this test case will be marked as correct. If all the test cases are correctly solved, then your script is viewed as correct.
+Your solution script is expected to solve only one single test case for one invocation. The test driver will repeatedly call your script for each test case and provide the input of the test case as the stdin for your script. You should print your result to the stdout. If your result is the same as the desired output of the test case, then this test case will be marked as correct. If all the test cases are correctly solved, then your script is viewed as correct.
 
 5. Check the correctness of your solution.
 
