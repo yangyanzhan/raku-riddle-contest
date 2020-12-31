@@ -1,4 +1,4 @@
-# raku-riddle-contest
+# Raku Riddle Contest
 
 Watch Raku Riddle Contest on [My Youtube Channel](https://www.youtube.com/channel/UCDkz-__gl3frqLexukpG0DA) .
 
