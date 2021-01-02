@@ -1,0 +1,3 @@
+The residents from the world of bits and bytes are constantly frustrated by the fact that they can't safely communicate with the residents from the PHYSICAL world. Everytime they tried to write a letter to the PHYSICAL world, their letters become unreadable to the residents from the PHYSICAL world. Finally, a wise person comes up with an idea and since then every letter written in string format could be successfully interpreted. And since then, people from these two worlds could understand and communicate with each other.
+
+Can you think of the method provided by the wise person?
