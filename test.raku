@@ -14,7 +14,7 @@ sub MAIN(Str :$riddle, Str :$user) {
             say "Test Case: $line ✅";
         } else {
             $wrong-count++;
-            say "Test Case: $line ❌";
+            say "Test Case: $line ❌ - Your output is $output";
         }
     }
     if $wrong-count == 0 {
