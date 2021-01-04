@@ -1,5 +1,7 @@
 # Raku Riddle Contest
 
+[![Build Status](https://travis-ci.com/yangyanzhan/raku-riddle-contest.svg?branch=main&status=passed)](https://travis-ci.com/github/yangyanzhan/raku-riddle-contest)
+
 Watch Raku Riddle Contest on [My Youtube Channel](https://www.youtube.com/channel/UCDkz-__gl3frqLexukpG0DA) .
 
 # How to join this contest? Gif Illustration.
