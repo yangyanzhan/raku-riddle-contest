@@ -21,5 +21,6 @@ sub MAIN(Str :$riddle, Str :$user) {
         say "All Correct 🎉🎉🎉";
     } else {
         say "$wrong-count Test Cases are incorrect 😞😞😞";
+        die "oops";
     }
 }
