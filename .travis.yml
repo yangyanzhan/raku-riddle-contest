@@ -1,0 +1,12 @@
+language: perl6
+perl6:
+  - latest
+  - '2017.05'
+  - '2017.04'
+
+install:
+    - rakudobrew build-zef
+    - zef --debug --depsonly install .
+
+script:
+    perl6 test.raku --riddle=1 --user=yangyanzhan

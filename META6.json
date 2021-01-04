@@ -1,0 +1,12 @@
+{
+    "perl"        : "6.*",
+    "name"        : "Raku-Riddle-Contest",
+    "version"     : "1.0",
+    "description" : "A weekly riddle contest in Raku",
+    "depends"     : [],
+    "license":    "MIT",
+    "provides"    : {
+    },
+    "source-url"  : "git@github.com:yangyanzhan/raku-riddle-contest.git",
+    "author": "yangyanzhan@gmail.com"
+}
