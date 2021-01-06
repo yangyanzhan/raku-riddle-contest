@@ -40,6 +40,12 @@ raku test.raku --riddle=1 --user=username
 
 Create a pull request, I'll check the correctness and the uniqueness of your solution. If the solution is both correct and unique, I'll merge your pull request and publish your solution to my youtube channel so that everyone can learn from your raku code.
 
+# Riddle Difficulty Level
+
+This repo needs your help! If you have any idea of a novel and difficult riddle, please contact me.
+
+Also, sometimes there're two tracks for one week's riddle. For example, for the #2 riddle, there are 2-1 riddle and 2-2 riddle. 2-1 stands for the first track (easy track). 2-2 stands for the second track (hard track).
+
 # How to support me?
 
 It's very easy to support me. Just follow my youtube channel and my github account. Also don't forget to star this project.
