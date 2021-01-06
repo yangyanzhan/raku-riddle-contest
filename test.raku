@@ -10,7 +10,7 @@ sub MAIN(Str :$riddle, Str :$user) {
         my $answer = @parts[1];
         my $proc = shell "echo $input | raku solutions/$riddle/$user.raku", :out;
         my $output = $proc.out.get;
-        if $answer == $output {
+        if $answer ~~ $output {
             say "Test Case: $line ✅";
         } else {
             $wrong-count++;
