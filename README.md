@@ -60,5 +60,6 @@ This is [My Youtube Channel](https://www.youtube.com/channel/UCDkz-__gl3frqLexuk
 
 [Introduction](https://www.youtube.com/watch?v=-LNAyCxXVxY&list=PLauAmRFUiNdtNCuyA9SlSReMOMtchw6CU&index=1)
 
+[Solution for #1 Riddle](https://youtu.be/bP3qoaWLig0)
 
 
