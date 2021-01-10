@@ -1,0 +1,3 @@
+The residents from the world of bits and bytes have successfully found a way to safely communicate with the residents from the real world. However, they find this way of communication is somewhat cumbersome and not very effecient. So they start to upgrade their way of communication.
+
+Can you think of the upgradation they have done to the original communication method?
