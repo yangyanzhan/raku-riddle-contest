@@ -16,7 +16,9 @@ sub ascii85($w) {
    while ( $i < $w.chars ) {
 
       my $v = $w.substr($i,4);
-      $v ~= $pd;
+      if $v.chars < 4 {
+         $v ~= $pd;
+      }
 
       my $bs = $v.ords.map( *.fmt('%08b') ).join("");
       my $bi = ":2<$bs>".Int;
