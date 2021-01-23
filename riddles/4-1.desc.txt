@@ -1,0 +1,5 @@
+You are a soldier from a Roman legion. Your troops are surrounded by a large number of barbarians.
+Your legion needs help! Desperately!
+Now you're assigned the task to pass the message of being surrounded to another legion located at the base camp 30 miles away.
+You're disguised as a peasant and the message is written down on scroll. However, the barbarians are very skeptical! They'll examine everything in your bag if you're caught.
+Now, come up with a method to ensure your message can't be deciphered by the barbarian if you're caught.
