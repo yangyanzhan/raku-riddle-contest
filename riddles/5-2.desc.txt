@@ -1,0 +1,1 @@
+It seems like your friend Vigenère is in great trouble! He has changed his algorithm to provide better encryption. Maybe there's a middleman in between you and Vigenère and Vigenère has to be extra alert. You know this is a variation of Vigenère's original cipher algorithm but the same problem resides here, how can you figure out the key?
