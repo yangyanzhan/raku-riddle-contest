@@ -1,0 +1,1 @@
+You are a friend of Vigenère. You're sent an encoded message from Vigenère. You know it's encoded and you know which cipher algorithm Vigenère are using. However, you don't have the key for this cipher. Can you figure out the key?
