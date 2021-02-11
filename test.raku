@@ -1,20 +1,18 @@
 sub MAIN(Str :$riddle, Str :$user) {
     say "riddle description:";
     say "===========================";
-    shell "cat ./riddles/$riddle.desc.txt";
+    shell "cat ./riddles/$riddle/desc.txt";
     say "===========================";
     my $wrong-count = 0;
-    for "./riddles/$riddle.riddle.txt".IO.lines -> $line {
-        my @parts = split(" ", $line);
-        my $input = @parts[0];
-        my $answer = @parts[1];
-        my $proc = shell "echo $input | raku solutions/$riddle/$user.raku", :out;
-        my $output = $proc.out.get;
+    for dir("./riddles/$riddle/case").sort({$^a.Str.split("/")[*-1].Int cmp $^b.Str.split("/")[*-1].Int}) -> $case-path {
+        my $answer = "$case-path/output.txt".IO.slurp.trim;
+        my $proc = shell "cat $case-path/input.txt | raku solutions/$riddle/$user.raku", :out;
+        my $output = $proc.out.get.trim;
         if $answer ~~ $output {
-            say "Test Case: $line ✅";
+            say "Test Case: $case-path ✅";
         } else {
             $wrong-count++;
-            say "Test Case: $line ❌ - Your output is $output";
+            say "Test Case: $case-path ❌ - Your output is $output";
         }
     }
     if $wrong-count == 0 {
