@@ -1,0 +1,1 @@
+You are required to calculate the value of π without using the π constant provided by Raku. Also, you're limited to only use addition, subtraction, multiplication and division. Can you do it?
