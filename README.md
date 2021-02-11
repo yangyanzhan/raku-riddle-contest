@@ -68,3 +68,5 @@ This is [My Youtube Channel](https://www.youtube.com/channel/UCDkz-__gl3frqLexuk
 
 [Solution for #4 Riddle](https://youtu.be/Iduj4nznojM)
 
+[Solution for #5 Riddle](https://youtu.be/3xYWRzi4biY)
+
