@@ -14,13 +14,13 @@ Watch Raku Riddle Contest on [My Youtube Channel](https://www.youtube.com/channe
 
 ### 2. Select a riddle to solve. Let's say you want to solve the first riddle.
 
-### 3. View the content of the first riddle. There are two files to look at for one riddle.
+### 3. View the content of the first riddle. There are two kinds of files to look at for one riddle.
 
-The file with desc.txt suffix shows the description for this riddle.
+The desc.txt file shows the description for this riddle.
 
-The file with riddle.txt suffix shows the test cases for this riddle. Each test case corresponds to one line in the riddle.txt file. Each test case can be split by blank space into two parts. The first part is the input of the test case. The second part is the desired output of the test case.
+The files under the case directory show the test cases for this riddle. Each test case corresponds to two files in the case directory. The input.txt is the input of the test case. The output.txt is the desired output of the test case.
 
-To view the content of the first riddle. You should look at ./riddles/1.desc.txt and ./riddles/1.riddle.txt.
+To view the content of the first riddle. You should look at ./riddles/1/desc.txt and ./riddles/1/case.
 
 ### 4. Write a solution for the riddle.
 
@@ -65,4 +65,6 @@ This is [My Youtube Channel](https://www.youtube.com/channel/UCDkz-__gl3frqLexuk
 [Solution for #2 Riddle](https://youtu.be/PJR9TA0OMM0)
 
 [Solution for #3 Riddle](https://youtu.be/ZxpU5xRl0i4)
+
+[Solution for #4 Riddle](https://youtu.be/Iduj4nznojM)
 
